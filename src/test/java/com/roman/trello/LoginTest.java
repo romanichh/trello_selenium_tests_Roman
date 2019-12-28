@@ -33,7 +33,7 @@ public class LoginTest {
         if (isElementPresent(By.id("password"))){
             wd.findElement(By.id("password")).click();
             wd.findElement(By.id("password")).clear();
-            wd.findElement(By.id("password")).sendKeys("romanich!987");
+            wd.findElement(By.id("password")).sendKeys("romanich1987");
         }
         wd.findElement(By.id("login")).click();
 
@@ -46,7 +46,9 @@ public class LoginTest {
             wd.findElement(By.id("login-submit")).click();
             wd.findElement(By.id("password")).click();
             wd.findElement(By.id("password")).clear();
-            wd.findElement(By.id("password")).sendKeys("romanich!987");
+            wd.findElement(By.id("password")).sendKeys("romanich1987");
+            wd.findElement(By.id("login-submit")).click();
+            Thread.sleep(3000);
         }
     }
 
