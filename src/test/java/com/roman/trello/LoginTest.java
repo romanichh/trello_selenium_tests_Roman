@@ -17,7 +17,7 @@ public class LoginTest {
         wd.get("https://trello.com/");
     }
 
-    @Test
+    @Test(enabled = false)
     public void testLogin() throws InterruptedException {
         //clickLogin
         clickLoginLink();
