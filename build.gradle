@@ -17,7 +17,11 @@ dependencies {
 
 }
 
-test{
+task testAll(type:Test){
+    useTestNG()
+}
+
+task testRegression(type:Test){
     useTestNG(){
         suites 'src/test/resources/testng.xml'
     }

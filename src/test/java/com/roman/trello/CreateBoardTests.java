@@ -1,6 +1,7 @@
 package com.roman.trello;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
@@ -26,5 +27,13 @@ class CreateBoardTests extends TestBase {
         Assert.assertEquals(after, before + 1);
     }
 
+    @AfterClass
+    public void postActions() throws InterruptedException {
+        int boardsCount = getBoardsCount();
+        while (boardsCount > 4) {
+            deleteBoard();
+            boardsCount = getBoardsCount();
+        }
+    }
 
 }

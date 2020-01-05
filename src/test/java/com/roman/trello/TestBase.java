@@ -140,4 +140,35 @@ public class TestBase {
     public boolean isThereBoard() {
         return getBoardsCount() > 1;
     }
+
+    public void permanentlyDeleteBoard() {
+        click(By.cssSelector(".js-delete"));
+        confirmCloseBoard();
+    }
+
+    public void confirmCloseBoard() {
+        click(By.cssSelector(".js-confirm[type='submit']"));
+    }
+
+    public void startCloseBoard() {
+        click(By.cssSelector(".js-close-board"));
+    }
+
+    public void clickOpenMore() {
+        click(By.cssSelector(".js-open-more"));
+    }
+
+    public void openFirstBoard() {
+        click(By.xpath("//*[@class='icon-lg icon-member']/../../..//li"));
+    }
+
+    public void deleteBoard() throws InterruptedException {
+        openFirstBoard();
+        pause(3000);
+        clickOpenMore();
+        startCloseBoard();
+        confirmCloseBoard();
+        returnToHomePage();
+        pause(10000);
+    }
 }
