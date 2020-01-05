@@ -5,7 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-class CreateBoardTests extends TestBase {
+public class CreateBoardTests extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
         if (!isAvatarPresentOnHeader()) {
