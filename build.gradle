@@ -17,12 +17,19 @@ dependencies {
 
 }
 
-task testAll(type:Test){
-    useTestNG()
+task testAll(type: Test) {
+    useTestNG {}
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+    }
 }
 
-task testRegression(type:Test){
-    useTestNG(){
+task testRegression(type: Test) {
+    useTestNG() {
         suites 'src/test/resources/testng.xml'
+    }
+    if (project.hasProperty('browser')) {
+        systemProperty 'browser', "${browser}"
+
     }
 }

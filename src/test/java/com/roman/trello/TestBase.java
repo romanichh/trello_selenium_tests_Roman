@@ -19,7 +19,7 @@ public class TestBase {
     @BeforeSuite
     public void setUp() {
 
-        String browser = BrowserType.CHROME;
+        String browser = System.getProperty("browser",BrowserType.CHROME);
         if (browser.equals(BrowserType.CHROME)) {
             wd = new ChromeDriver();
         } else if (browser.equals(BrowserType.FIREFOX)) {
@@ -29,7 +29,7 @@ public class TestBase {
         }
 
 
-        wd = new ChromeDriver();
+//        wd = new ChromeDriver();
         wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         wd.get("https://trello.com/");
     }
