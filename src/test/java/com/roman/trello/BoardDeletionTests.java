@@ -6,34 +6,34 @@ import org.testng.annotations.Test;
 public class BoardDeletionTests extends TestBase {
     @BeforeMethod
     public void preconditions() throws InterruptedException {
-        if (!isAvatarPresentOnHeader()) {
-            login();
+        if (!app.isAvatarPresentOnHeader()) {
+            app.login();
         }
-        if (!isThereBoard()) {
-            createBoard();
+        if (!app.isThereBoard()) {
+            app.createBoard();
         }
     }
 
     @Test
     public void testFirstBoardDeletion1() throws InterruptedException {
-        openFirstBoard();
-        clickOpenMore();
-        startCloseBoard();
-        confirmCloseBoard();
-        permanentlyDeleteBoard();
-        returnToHomePage();
-        pause(10000);
+        app.openFirstBoard();
+        app.clickOpenMore();
+        app.startCloseBoard();
+        app.confirmCloseBoard();
+        app.permanentlyDeleteBoard();
+        app.returnToHomePage();
+        app.pause(10000);
     }
 
     @Test
     public void testFirstBoardDeletion2() throws InterruptedException {
-        openFirstBoard();
-        pause(3000);
-        clickOpenMore();
-        startCloseBoard();
-        confirmCloseBoard();
-        returnToHomePage();
-        pause(10000);
+        app.openFirstBoard();
+        app.pause(3000);
+        app.clickOpenMore();
+        app.startCloseBoard();
+        app.confirmCloseBoard();
+        app.returnToHomePage();
+        app.pause(10000);
     }
 
 
