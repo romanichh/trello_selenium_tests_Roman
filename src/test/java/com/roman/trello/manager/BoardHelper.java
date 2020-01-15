@@ -1,4 +1,4 @@
-package com.roman.trello;
+package com.roman.trello.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -75,5 +75,13 @@ public class BoardHelper extends HelperBase {
         confirmCloseBoard();
         returnToHomePage();
         pause(10000);
+    }
+
+    public void closeAgreeButton() {
+        click(By.cssSelector("[value='Close']"));
+    }
+
+    public void clickOnThreePoints() {
+        click(By.xpath("//*[@class='icon-sm icon-overflow-menu-horizontal board-menu-navigation-item-link-icon']"));
     }
 }

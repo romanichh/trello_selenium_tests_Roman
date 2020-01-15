@@ -1,5 +1,6 @@
-package com.roman.trello;
+package com.roman.trello.tests;
 
+import com.roman.trello.manager.ApplicationManager;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 

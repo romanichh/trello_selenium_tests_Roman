@@ -3,9 +3,9 @@
 <suite name="Trello" verbose="1">
     <test name="SmokeTest">
         <classes>
-            <class name="com.roman.trello.LoginTest1"/>
-            <class name="com.roman.trello.CreateBoardTests"/>
-            <class name="com.roman.trello.BoardDeletionTests"/>
+            <class name="com.roman.trello.tests.LoginTest1"/>
+            <class name="com.roman.trello.tests.CreateBoardTests"/>
+            <class name="com.roman.trello.tests.BoardDeletionTests"/>
         </classes>
     </test>
 </suite>

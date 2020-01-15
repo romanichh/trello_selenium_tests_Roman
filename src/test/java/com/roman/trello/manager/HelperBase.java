@@ -1,4 +1,4 @@
-package com.roman.trello;
+package com.roman.trello.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -38,6 +38,8 @@ public class HelperBase {
         click(By.name("house"));
         pause(10000);
     }
+
+
 
 
 }

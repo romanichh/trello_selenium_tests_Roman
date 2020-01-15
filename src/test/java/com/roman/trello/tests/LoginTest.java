@@ -1,4 +1,4 @@
-package com.roman.trello;
+package com.roman.trello.tests;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
