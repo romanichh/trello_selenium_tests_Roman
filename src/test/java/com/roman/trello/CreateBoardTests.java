@@ -15,24 +15,24 @@ public class CreateBoardTests extends TestBase {
 
     @Test
     public void testBoardCreationFromHeader() throws InterruptedException {
-        int before = app.getBoardsCount();
+        int before = app.getBoardHelper().getBoardsCount();
         app.clickOnPlusButton();
-        app.selectCreateBoardFromDropDown();
-        app.fillBoardForm("qa22" + System.currentTimeMillis());
-        app.confirmBoardCreation();
+        app.getBoardHelper().selectCreateBoardFromDropDown();
+        app.getBoardHelper().fillBoardForm("qa22" + System.currentTimeMillis());
+        app.getBoardHelper().confirmBoardCreation();
         app.pause(5000);
         app.returnToHomePage();
 
-        int after = app.getBoardsCount();
+        int after = app.getBoardHelper().getBoardsCount();
         Assert.assertEquals(after, before + 1);
     }
 
     @AfterClass
     public void postActions() throws InterruptedException {
-        int boardsCount = app.getBoardsCount();
+        int boardsCount = app.getBoardHelper().getBoardsCount();
         while (boardsCount > 4) {
-            app.deleteBoard();
-            boardsCount = app.getBoardsCount();
+            app.getBoardHelper().deleteBoard();
+            boardsCount = app.getBoardHelper().getBoardsCount();
         }
     }
 
