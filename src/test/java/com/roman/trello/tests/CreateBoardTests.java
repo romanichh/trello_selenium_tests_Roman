@@ -1,5 +1,6 @@
 package com.roman.trello.tests;
 
+import com.roman.trello.model.BoardData;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeMethod;
@@ -18,7 +19,7 @@ public class CreateBoardTests extends TestBase {
         int before = app.getBoard().getBoardsCount();
         app.getSession().clickOnPlusButton();
         app.getBoard().selectCreateBoardFromDropDown();
-        app.getBoard().fillBoardForm("qa22" + System.currentTimeMillis());
+        app.getBoard().fillBoardForm(new BoardData("qa22" + System.currentTimeMillis()));
         app.getBoard().confirmBoardCreation();
         app.getSession().pause(5000);
         app.getSession().returnToHomePage();

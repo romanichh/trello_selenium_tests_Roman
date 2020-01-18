@@ -12,6 +12,7 @@ public class ApplicationManager {
     BoardHelper board;
     SessionHelper session;
     HeaderHelper header;
+    TeamHelper team;
 
     WebDriver wd;
 
@@ -33,7 +34,9 @@ public class ApplicationManager {
         board = new BoardHelper(wd);
         session = new SessionHelper(wd);
         header = new HeaderHelper(wd);
+        team = new TeamHelper(wd);
     }
+
 
     public void stop() {
         wd.quit();
@@ -54,4 +57,8 @@ public class ApplicationManager {
     public HeaderHelper getHeader() {
         return header;
     }
+    public TeamHelper getTeam() {
+        return team;
+    }
+
 }
