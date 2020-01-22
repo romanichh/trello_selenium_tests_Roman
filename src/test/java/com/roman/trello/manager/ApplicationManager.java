@@ -27,7 +27,7 @@ public class ApplicationManager {
         }
 
 //        wd = new ChromeDriver();
-        wd.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+        wd.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         maximize();
         wd.get("https://trello.com/");
 
