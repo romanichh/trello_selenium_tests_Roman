@@ -13,7 +13,8 @@ public class TeamHelper extends HelperBase {
         click(By.cssSelector("[data-test-id='show-later-button']"));
     }
 
-    public int getTeamsCount() {
+    public int getTeamsCount() throws InterruptedException {
+        pause(10000);
         return wd.findElements(By.cssSelector("[data-test-id^=home-team-tab-section]")).size();
     }
 

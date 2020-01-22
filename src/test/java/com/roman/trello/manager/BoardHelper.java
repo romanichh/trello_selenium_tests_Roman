@@ -37,7 +37,7 @@ public class BoardHelper extends HelperBase {
     public void createBoard() throws InterruptedException {
         clickOnPlusButton();
         selectCreateBoardFromDropDown();
-        fillBoardForm(new BoardData("qa22" + System.currentTimeMillis()));
+        fillBoardForm(new BoardData().setBoardName("qa22" + System.currentTimeMillis()));
         confirmBoardCreation();
         pause(5000);
         returnToHomePage();
