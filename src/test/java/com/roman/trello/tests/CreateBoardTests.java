@@ -38,7 +38,7 @@ public class CreateBoardTests extends TestBase {
         app.getBoard().confirmBoardCreation();
         app.getSession().pause(5000);
         app.getSession().returnToHomePage();
-
+        app.getSession().pause(3000);
         int after = app.getBoard().getBoardsCount();
         Assert.assertEquals(after, before + 1);
     }

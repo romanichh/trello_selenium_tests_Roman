@@ -1,0 +1,9 @@
+2020-01-29 00:51:07,871 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestChangeAvatarwith parameters[]
+2020-01-29 00:52:01,881 INFO [Test worker] c.r.t.t.TestBase [ChangeUserAvatarTest.java:16] avatar before:
+2020-01-29 00:52:02,242 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580251922242.png
+2020-01-29 00:53:06,477 INFO [Test worker] c.r.t.t.TestBase [ChangeUserAvatarTest.java:22] avatar after:
+2020-01-29 00:53:06,791 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580251986791.png
+2020-01-29 00:53:06,807 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testChangeAvatarPassed Successful 
+2020-01-29 00:53:06,807 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestChangeAvatar

@@ -27,7 +27,6 @@ public class DataProviders {
         return list.iterator();
     }
 
-
     @DataProvider
     public Iterator<Object[]> validTeams() {
         List<Object[]> list = new ArrayList<>();

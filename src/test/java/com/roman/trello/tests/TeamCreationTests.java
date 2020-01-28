@@ -22,11 +22,10 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().selectCreateTeamFromDropDown();
         app.getTeam().fillTeamCreationForm(team);
         app.getTeam().submitTeamCreation();
-
         app.getTeam().clickLaterButton();
-        int TeamCountAfter = app.getTeam().getTeamsCount();
         app.getHeader().returnToHomePage();
-//        Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
+        int TeamCountAfter = app.getTeam().getTeamsCount();
+        Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
         app.getTeam().pause(5000);
     }
 
@@ -37,11 +36,10 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().selectCreateTeamFromDropDown();
         app.getTeam().fillTeamCreationForm(new TeamData().withTeamName(teamName).withTeamDescr(teamDescr));
         app.getTeam().submitTeamCreation();
-
         app.getTeam().clickLaterButton();
-        int TeamCountAfter = app.getTeam().getTeamsCount();
         app.getHeader().returnToHomePage();
-//        Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
+        int TeamCountAfter = app.getTeam().getTeamsCount();
+        Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
         app.getTeam().pause(5000);
     }
 
@@ -52,10 +50,9 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().selectCreateTeamFromDropDown();
         app.getTeam().fillTeamCreationForm(new TeamData().withTeamName("teamName").withTeamDescr("teamDescr"));
         app.getTeam().submitTeamCreation();
-
         app.getTeam().clickLaterButton();
-        int TeamCountAfter = app.getTeam().getTeamsCount();
         app.getHeader().returnToHomePage();
+        int TeamCountAfter = app.getTeam().getTeamsCount();
         Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
         app.getTeam().pause(5000);
     }
@@ -67,10 +64,9 @@ public class TeamCreationTests extends TestBase {
         app.getTeam().selectCreateTeamFromDropDown();
         app.getTeam().fillTeamCreationForm(new TeamData().withTeamName("teamName"));
         app.getTeam().submitTeamCreation();
-
         app.getTeam().clickLaterButton();
-        int TeamCountAfter = app.getTeam().getTeamsCount();
         app.getHeader().returnToHomePage();
+        int TeamCountAfter = app.getTeam().getTeamsCount();
         Assert.assertEquals(TeamCountAfter, countCountbefore + 1);
         app.getTeam().pause(5000);
     }

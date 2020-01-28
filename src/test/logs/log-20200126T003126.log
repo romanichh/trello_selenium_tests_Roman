@@ -1,0 +1,10 @@
+2020-01-26 00:31:41,667 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderwith parameters[]
+2020-01-26 00:33:00,506 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeader
+2020-01-26 00:33:00,594 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='1'}]
+2020-01-26 00:33:16,651 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-01-26 00:33:16,651 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='a'}]
+2020-01-26 00:33:32,621 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-01-26 00:33:32,622 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+2020-01-26 00:33:48,804 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-01-26 00:33:48,804 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+2020-01-26 00:34:05,409 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
