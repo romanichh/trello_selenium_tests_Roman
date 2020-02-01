@@ -1,0 +1,21 @@
+2020-02-01 13:39:22,250 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderwith parameters[]
+2020-02-01 13:41:21,700 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderPassed Successful 
+2020-02-01 13:41:21,706 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeader
+2020-02-01 13:41:21,730 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithDPwith parameters[name DP, description DP]
+2020-02-01 13:41:58,230 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithDPPassed Successful 
+2020-02-01 13:41:58,238 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithDP
+2020-02-01 13:41:58,244 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithDPwith parameters[DPn, ]
+2020-02-01 13:42:34,637 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithDPPassed Successful 
+2020-02-01 13:42:34,641 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithDP
+2020-02-01 13:42:34,657 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithNameOnlywith parameters[]
+2020-02-01 13:43:10,944 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithNameOnlyPassed Successful 
+2020-02-01 13:43:10,945 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithNameOnly
+2020-02-01 13:43:10,947 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='a', teamDescr='d'}]
+2020-02-01 13:43:47,459 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-02-01 13:43:47,467 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
+2020-02-01 13:43:47,475 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='6desf4lceo68c1m966w7', teamDescr='12esf4lceo68c1_m966w7'}]
+2020-02-01 13:44:24,191 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-02-01 13:44:24,196 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
+2020-02-01 13:44:24,200 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='"oZ97crV7JPq8azjeRcY9tsul0jWA4lF60FBo11nYzTIYfcL', teamDescr='RcBx2ZzqM1TeN5Z7cGkNWAnsf70ydT7Grl'}]
+2020-02-01 13:45:00,995 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-02-01 13:45:01,000 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV

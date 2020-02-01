@@ -1,0 +1,9 @@
+2020-02-02 00:34:55,060 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestDeletionAvatarwith parameters[]
+2020-02-02 00:35:50,528 INFO [Test worker] c.r.t.t.TestBase [DeletionUserAvatarTest.java:16] avatar before:
+2020-02-02 00:35:51,079 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580596551060.png
+2020-02-02 00:36:14,100 INFO [Test worker] c.r.t.t.TestBase [DeletionUserAvatarTest.java:24] avatar after:
+2020-02-02 00:36:14,519 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580596574516.png
+2020-02-02 00:36:14,526 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testDeletionAvatarPassed Successful 
+2020-02-02 00:36:14,528 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestDeletionAvatar

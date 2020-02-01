@@ -2,6 +2,7 @@ package com.roman.trello.manager;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
 
@@ -83,5 +84,52 @@ public class SessionHelper extends HelperBase {
             pause(5000);
         }
 
+    }
+
+
+    public void deletePictureAndCloseWindow() throws InterruptedException {
+        WebElement avatar = wd.findElement(By.cssSelector("[data-test-selector='profile-avatar']"));
+        new Actions(wd).moveToElement(avatar).perform();
+        click(By.cssSelector("[data-test-selector='profile-hover-info']"));
+        if (isElementPresent(By.xpath("//*[contains(text(),'Remove')]"))) {
+            click(By.xpath("//*[contains(text(),'Remove')]"));
+        }
+        pause(3000);
+        wd.close();
+        pause(3000);
+        ArrayList<String> availableWindows = new ArrayList(wd.getWindowHandles());
+        if (!availableWindows.isEmpty()) {
+            wd.switchTo().window(availableWindows.get(0));
+            pause(5000);
+            wd.navigate().refresh();
+            pause(5000);
+        }
+    }
+
+    public void addHeaderImageAndCloseWindow() throws InterruptedException {
+
+        WebElement avatar = wd.findElement(By.cssSelector(".krdvGz"));
+        new Actions(wd).moveToElement(avatar).perform();
+
+        click(By.cssSelector(".krdvGz"));
+        pause(5000);
+        if (isElementPresent(By.xpath("//*[@class='Item-z6qfkt-2 fawwoK'][1]"))) {
+            attach(By.xpath("//*[@class='Item-z6qfkt-2 fawwoK'][1]"), new File("C:/Users/romic/Documents/GitHub/trello_selenium_tests_Roman/src/test/resources/foto (13).jpg"));
+        }
+        pause(7000);
+        wd.close();
+        pause(3000);
+
+    }
+
+    public void goToPreviousWindow() throws InterruptedException {
+
+        ArrayList<String> availableWindows = new ArrayList(wd.getWindowHandles());
+        if (!availableWindows.isEmpty()) {
+            wd.switchTo().window(availableWindows.get(0));
+            pause(5000);
+            wd.navigate().refresh();
+            pause(5000);
+        }
     }
 }

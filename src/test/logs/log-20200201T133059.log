@@ -1,0 +1,22 @@
+2020-02-01 13:31:13,862 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderwith parameters[]
+2020-02-01 13:32:44,984 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderPassed Successful 
+2020-02-01 13:32:44,991 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeader
+2020-02-01 13:32:45,014 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithDPwith parameters[name DP, description DP]
+2020-02-01 13:33:46,471 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] teamCreationTestFromHeaderWithDP Failed
+java.lang.AssertionError: expected [6] but found [0]
+2020-02-01 13:33:46,816 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580556826804.png
+2020-02-01 13:33:46,817 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithDP
+2020-02-01 13:33:46,819 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithDPwith parameters[DPn, ]
+2020-02-01 13:34:48,190 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] teamCreationTestFromHeaderWithDP Failed
+java.lang.AssertionError: expected [1] but found [7]
+2020-02-01 13:34:48,525 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580556888522.png
+2020-02-01 13:34:48,526 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithDP
+2020-02-01 13:34:48,528 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderWithNameOnlywith parameters[]
+2020-02-01 13:35:24,856 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderWithNameOnlyPassed Successful 
+2020-02-01 13:35:24,861 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderWithNameOnly
+2020-02-01 13:35:24,871 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='a', teamDescr='d'}]
+2020-02-01 13:36:01,396 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-02-01 13:36:01,403 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
+2020-02-01 13:36:01,411 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='6desf4lceo68c1m966w7', teamDescr='12esf4lceo68c1_m966w7'}]

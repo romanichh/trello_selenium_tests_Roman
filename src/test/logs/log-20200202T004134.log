@@ -1,0 +1,15 @@
+2020-02-02 00:41:48,834 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestHeaderImagewith parameters[]
+2020-02-02 00:42:44,523 INFO [Test worker] c.r.t.t.TestBase [ChangeUserAvatarTest.java:16] avatar before:
+2020-02-02 00:42:50,587 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580596970573.png
+2020-02-02 00:42:52,114 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testHeaderImage Failed
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span class="sc-dnqmqq krdvGz" aria-label="">...</span> is not clickable at point (826, 258). Other element would receive the click: <img class="sc-cHGsZl jHHGJN" height="112" src="https://ptc-directory-sited-static.us-east-1.prod.public.atl-paas.net/gradients/5.svg" data-test-selector="profile-header-image">
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\romic\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49955}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ff00fab5ead503e6b2df25664b03f59c
+2020-02-02 00:42:52,468 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1580596972464.png
+2020-02-02 00:42:52,470 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestHeaderImage
