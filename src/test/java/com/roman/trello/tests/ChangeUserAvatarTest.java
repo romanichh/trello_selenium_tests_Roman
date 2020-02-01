@@ -22,6 +22,4 @@ public class ChangeUserAvatarTest extends TestBase {
         logger.info("avatar after:");
         app.takeScreenshot();
     }
-
-
 }

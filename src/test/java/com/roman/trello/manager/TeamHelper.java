@@ -28,6 +28,8 @@ public class TeamHelper extends HelperBase {
 
     public void fillTeamCreationForm(TeamData teamData) {
         type(By.cssSelector("[data-test-id='header-create-team-name-input']"), teamData.getTeamName());
+        click(By.cssSelector("[data-test-id='header-create-team-type-input']"));
+        click(By.xpath("//*[contains(text(), 'Sales')]"));
         type(By.cssSelector("[id$=description]"), teamData.getTeamDescr());
     }
 

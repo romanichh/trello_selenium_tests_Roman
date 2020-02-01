@@ -1,0 +1,9 @@
+2020-01-29 19:15:07,199 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='a', teamDescr='d'}]
+2020-01-29 19:16:38,482 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-01-29 19:16:38,497 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
+2020-01-29 19:16:38,497 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='6desf4lceo68c1m966w7', teamDescr='12esf4lceo68c1_m966w7'}]
+2020-01-29 19:17:15,531 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-01-29 19:17:15,531 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
+2020-01-29 19:17:15,531 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderfromCSVwith parameters[TeamData teamName='"oZ97crV7JPq8azjeRcY9tsul0jWA4lF60FBo11nYzTIYfcL', teamDescr='RcBx2ZzqM1TeN5Z7cGkNWAnsf70ydT7Grl'}]
+2020-01-29 19:17:52,775 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] teamCreationTestFromHeaderfromCSVPassed Successful 
+2020-01-29 19:17:52,775 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testteamCreationTestFromHeaderfromCSV
