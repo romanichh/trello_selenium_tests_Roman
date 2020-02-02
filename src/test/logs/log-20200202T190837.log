@@ -1,0 +1,8 @@
+2020-02-02 19:08:51,881 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion1with parameters[]
+2020-02-02 19:08:53,871 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestChangeAvatarwith parameters[]
+2020-02-02 19:08:53,886 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderwith parameters[]
+2020-02-02 19:08:54,009 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestDeletionAvatarwith parameters[]
+2020-02-02 19:08:54,039 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginwith parameters[]
+2020-02-02 19:08:54,070 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testteamCreationTestFromHeaderwith parameters[]
+2020-02-02 19:08:54,094 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testdeletionBoardTestswith parameters[]
+2020-02-02 19:08:54,108 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testmodificationTeamNamewith parameters[]
