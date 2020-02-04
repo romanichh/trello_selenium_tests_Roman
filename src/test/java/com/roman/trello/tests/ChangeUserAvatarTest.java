@@ -11,7 +11,7 @@ public class ChangeUserAvatarTest extends TestBase {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void testHeaderImage() throws InterruptedException {
         logger.info("avatar before:");
         app.getHeader().clickOnAvatar();
@@ -25,8 +25,6 @@ public class ChangeUserAvatarTest extends TestBase {
         app.getSession().goToPreviousWindow();
 
     }
-
-
 
 
     @Test
