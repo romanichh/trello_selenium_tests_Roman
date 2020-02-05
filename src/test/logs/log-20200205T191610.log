@@ -1,0 +1,25 @@
+2020-02-05 19:16:18,525 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginwith parameters[]
+2020-02-05 19:17:11,727 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testLoginPassed Successful 
+2020-02-05 19:17:11,727 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestLogin
+2020-02-05 19:17:11,727 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginAgainwith parameters[]
+2020-02-05 19:17:42,233 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderwith parameters[]
+2020-02-05 19:18:02,418 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderPassed Successful 
+2020-02-05 19:18:02,418 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeader
+2020-02-05 19:18:02,433 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='1'}]
+2020-02-05 19:18:19,449 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSVPassed Successful 
+2020-02-05 19:18:19,449 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-05 19:18:19,464 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='a'}]
+2020-02-05 19:18:36,560 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSVPassed Successful 
+2020-02-05 19:18:36,560 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-05 19:18:36,560 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+2020-02-05 19:18:53,444 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSVPassed Successful 
+2020-02-05 19:18:53,444 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-05 19:18:53,444 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+2020-02-05 19:19:10,488 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testBoardCreationFromHeaderFromCSVPassed Successful 
+2020-02-05 19:19:10,488 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-05 19:20:25,560 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion1with parameters[]
+2020-02-05 19:20:48,041 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testFirstBoardDeletion1Passed Successful 
+2020-02-05 19:20:48,041 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestFirstBoardDeletion1
+2020-02-05 19:20:48,041 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion2with parameters[]
+2020-02-05 19:21:12,862 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testFirstBoardDeletion2Passed Successful 
+2020-02-05 19:21:12,862 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestFirstBoardDeletion2
