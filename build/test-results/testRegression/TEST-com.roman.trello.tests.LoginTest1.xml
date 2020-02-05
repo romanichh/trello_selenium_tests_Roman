@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.roman.trello.tests.LoginTest1" tests="3" skipped="1" failures="1" errors="0" timestamp="2020-02-05T17:16:48" hostname="DESKTOP-TU4L92H" time="53.666">
+<testsuite name="com.roman.trello.tests.LoginTest1" tests="3" skipped="1" failures="1" errors="0" timestamp="2020-02-05T18:02:23" hostname="DESKTOP-TU4L92H" time="52.331">
   <properties/>
-  <testcase name="testLogin" classname="com.roman.trello.tests.LoginTest1" time="23.176"/>
-  <testcase name="ensurePreconditions" classname="com.roman.trello.tests.LoginTest1" time="30.49">
-    <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-logout']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14164, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 41c0c39b-e486-4bf0-adf2-fde44c75f841&#10;*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-logout']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-logout']
+  <testcase name="testLogin" classname="com.roman.trello.tests.LoginTest1" time="21.81"/>
+  <testcase name="ensurePreconditions" classname="com.roman.trello.tests.LoginTest1" time="30.505">
+    <failure message="org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-logout']&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10388, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: ab616588-19ff-418a-868c-5b7daf1a95b1&#10;*** Element info: {Using=css selector, value=[data-test-id='header-member-menu-logout']}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: Unable to locate element: [data-test-id='header-member-menu-logout']
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 14164, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 41c0c39b-e486-4bf0-adf2-fde44c75f841
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 10388, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ab616588-19ff-418a-868c-5b7daf1a95b1
 *** Element info: {Using=css selector, value=[data-test-id='header-member-menu-logout']}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -90,10 +90,10 @@ Session ID: 41c0c39b-e486-4bf0-adf2-fde44c75f841
   <testcase name="testLoginAgain" classname="com.roman.trello.tests.LoginTest1" time="0.0">
     <skipped/>
   </testcase>
-  <system-out><![CDATA[19:16:18.525 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestLoginwith parameters[]
-19:17:11.727 [Test worker] INFO  com.roman.trello.utils.Listener - testLoginPassed Successful 
-19:17:11.727 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestLogin
-19:17:11.727 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestLoginAgainwith parameters[]
+  <system-out><![CDATA[20:01:53.144 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestLoginwith parameters[]
+20:02:44.988 [Test worker] INFO  com.roman.trello.utils.Listener - testLoginPassed Successful 
+20:02:44.988 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestLogin
+20:02:44.988 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestLoginAgainwith parameters[]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
