@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.roman.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-05T18:05:58" hostname="DESKTOP-TU4L92H" time="46.965">
+<testsuite name="com.roman.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-07T20:34:50" hostname="DESKTOP-TU4L92H" time="46.559">
   <properties/>
-  <testcase name="testFirstBoardDeletion1" classname="com.roman.trello.tests.BoardDeletionTests" time="22.307"/>
-  <testcase name="testFirstBoardDeletion2" classname="com.roman.trello.tests.BoardDeletionTests" time="24.627"/>
-  <system-out><![CDATA[20:05:58.272 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion1with parameters[]
-20:06:20.611 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion1Passed Successful 
-20:06:20.611 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion1
-20:06:20.611 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion2with parameters[]
-20:06:45.269 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion2Passed Successful 
-20:06:45.269 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion2
+  <testcase name="testFirstBoardDeletion1" classname="com.roman.trello.tests.BoardDeletionTests" time="22.032"/>
+  <testcase name="testFirstBoardDeletion2" classname="com.roman.trello.tests.BoardDeletionTests" time="24.493"/>
+  <system-out><![CDATA[22:34:50.125 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion1with parameters[]
+22:35:12.173 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion1Passed Successful 
+22:35:12.181 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion1
+22:35:12.186 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion2with parameters[]
+22:35:36.701 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion2Passed Successful 
+22:35:36.709 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion2
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

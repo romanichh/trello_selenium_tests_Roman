@@ -1,0 +1,40 @@
+2020-02-07 20:44:01,290 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginwith parameters[]
+2020-02-07 20:45:08,925 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testLoginPassed Successful 
+2020-02-07 20:45:08,925 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestLogin
+2020-02-07 20:45:08,925 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginAgainwith parameters[]
+2020-02-07 20:45:39,592 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderwith parameters[]
+2020-02-07 20:45:59,752 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testBoardCreationFromHeader Failed
+java.lang.AssertionError: expected [7] but found [6]
+2020-02-07 20:45:59,908 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581101159892.png
+2020-02-07 20:45:59,908 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeader
+2020-02-07 20:45:59,923 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='1'}]
+2020-02-07 20:46:16,835 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testBoardCreationFromHeaderFromCSV Failed
+java.lang.AssertionError: expected [7] but found [6]
+2020-02-07 20:46:16,944 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581101176944.png
+2020-02-07 20:46:16,944 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-07 20:46:16,944 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='a'}]
+2020-02-07 20:46:33,840 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testBoardCreationFromHeaderFromCSV Failed
+java.lang.AssertionError: expected [7] but found [6]
+2020-02-07 20:46:33,949 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581101193934.png
+2020-02-07 20:46:33,949 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-07 20:46:33,949 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+2020-02-07 20:46:50,824 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testBoardCreationFromHeaderFromCSV Failed
+java.lang.AssertionError: expected [7] but found [6]
+2020-02-07 20:46:50,918 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581101210918.png
+2020-02-07 20:46:50,933 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-07 20:46:50,933 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+2020-02-07 20:47:07,830 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testBoardCreationFromHeaderFromCSV Failed
+java.lang.AssertionError: expected [7] but found [6]
+2020-02-07 20:47:07,930 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581101227930.png
+2020-02-07 20:47:07,930 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestBoardCreationFromHeaderFromCSV
+2020-02-07 20:47:41,248 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion1with parameters[]
+2020-02-07 20:48:50,593 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testFirstBoardDeletion1Passed Successful 
+2020-02-07 20:48:50,593 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestFirstBoardDeletion1
+2020-02-07 20:48:50,593 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion2with parameters[]
+2020-02-07 20:49:15,355 INFO [Test worker] c.r.t.u.Listener [Listener.java:16] testFirstBoardDeletion2Passed Successful 
+2020-02-07 20:49:15,355 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestFirstBoardDeletion2

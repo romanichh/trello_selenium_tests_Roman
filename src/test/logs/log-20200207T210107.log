@@ -1,0 +1,28 @@
+2020-02-07 21:01:15,299 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginwith parameters[]
+2020-02-07 21:02:39,137 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testLogin Failed
+org.openqa.selenium.NoSuchElementException: Unable to locate element: #username
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17364, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd7283b0-6dfc-4844-bf59-799c096414ee
+*** Element info: {Using=id, value=username}
+2020-02-07 21:02:39,233 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581102159233.png
+2020-02-07 21:02:39,233 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestLogin
+2020-02-07 21:02:39,233 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestLoginAgainwith parameters[]
+2020-02-07 21:03:39,331 ERROR [Test worker] c.r.t.u.Listener [Listener.java:21] testLoginAgain Failed
+org.openqa.selenium.NoSuchElementException: Unable to locate element: [href='/login']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-TU4L92H', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_231'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 72.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200117190643, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 17364, moz:profile: C:\Users\romic\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dd7283b0-6dfc-4844-bf59-799c096414ee
+*** Element info: {Using=css selector, value=[href='/login']}
+2020-02-07 21:03:39,441 INFO [Test worker] c.r.t.m.ApplicationManager [ApplicationManager.java:63] 
+Created screenshot: C:\Users\romic\Documents\GitHub\trello_selenium_tests_Roman\src\test\screenshots\screen-1581102219441.png
+2020-02-07 21:03:39,441 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:27] Stop testtestLoginAgain
+2020-02-07 21:03:39,441 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestBoardCreationFromHeaderwith parameters[]
+2020-02-07 21:04:39,510 INFO [Test worker] c.r.t.t.TestBase [TestBase.java:22] Start testtestFirstBoardDeletion1with parameters[]
