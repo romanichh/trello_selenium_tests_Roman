@@ -18,13 +18,16 @@ public class SessionHelper extends HelperBase {
     public void fillLoginForm(String user, String pwd) throws InterruptedException {
         //username
         type(By.id("user"), user);
-        pause(3000);
+        pause(5000);
         click(By.id("login"));
         //email
         type(By.id("username"), "romich87@gmail.com");
+        pause(3000);
         click(By.id("login-submit"));
+        pause(5000);
         //password
-        type(By.id("password"), pwd);
+        type(By.cssSelector("input[id=password]"), pwd);
+//        type(By.id("password"), pwd);
         click(By.id("login-submit"));
         pause(10000);
     }
