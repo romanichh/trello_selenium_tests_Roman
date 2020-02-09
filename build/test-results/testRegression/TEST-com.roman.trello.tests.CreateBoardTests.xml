@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.roman.trello.tests.CreateBoardTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-07T20:32:09" hostname="DESKTOP-TU4L92H" time="86.596">
+<testsuite name="com.roman.trello.tests.CreateBoardTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-07T20:42:51" hostname="DESKTOP-TU4L92H" time="88.34">
   <properties/>
-  <testcase name="testBoardCreationFromHeader" classname="com.roman.trello.tests.CreateBoardTests" time="19.857"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[0](BoardData boardName='1'})" classname="com.roman.trello.tests.CreateBoardTests" time="16.599"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[1](BoardData boardName='a'})" classname="com.roman.trello.tests.CreateBoardTests" time="16.649"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[2](BoardData boardName='clnsjbbw4kmkfqh_kmjvi'})" classname="com.roman.trello.tests.CreateBoardTests" time="16.663"/>
-  <testcase name="testBoardCreationFromHeaderFromCSV[3](BoardData boardName='&quot;gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'})" classname="com.roman.trello.tests.CreateBoardTests" time="16.736"/>
-  <system-out><![CDATA[22:32:09.694 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderwith parameters[]
-22:32:29.568 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderPassed Successful 
-22:32:29.571 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeader
-22:32:29.582 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='1'}]
-22:32:46.221 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
-22:32:46.222 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
-22:32:46.223 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='a'}]
-22:33:02.879 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
-22:33:02.881 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
-22:33:02.883 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
-22:33:19.554 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
-22:33:19.557 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
-22:33:19.559 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
-22:33:36.308 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
-22:33:36.310 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
+  <testcase name="testBoardCreationFromHeader" classname="com.roman.trello.tests.CreateBoardTests" time="20.102"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[0](BoardData boardName='1'})" classname="com.roman.trello.tests.CreateBoardTests" time="17.033"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[1](BoardData boardName='a'})" classname="com.roman.trello.tests.CreateBoardTests" time="16.917"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[2](BoardData boardName='clnsjbbw4kmkfqh_kmjvi'})" classname="com.roman.trello.tests.CreateBoardTests" time="17.122"/>
+  <testcase name="testBoardCreationFromHeaderFromCSV[3](BoardData boardName='&quot;gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'})" classname="com.roman.trello.tests.CreateBoardTests" time="17.077"/>
+  <system-out><![CDATA[22:42:51.522 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderwith parameters[]
+22:43:11.637 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderPassed Successful 
+22:43:11.642 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeader
+22:43:11.654 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='1'}]
+22:43:28.696 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
+22:43:28.697 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
+22:43:28.699 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='a'}]
+22:43:45.626 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
+22:43:45.631 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
+22:43:45.636 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='clnsjbbw4kmkfqh_kmjvi'}]
+22:44:02.771 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
+22:44:02.775 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
+22:44:02.780 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestBoardCreationFromHeaderFromCSVwith parameters[BoardData boardName='"gRKevt0sLwuxJn6sHBitYHUO2ikmH D8F9weec'}]
+22:44:19.877 [Test worker] INFO  com.roman.trello.utils.Listener - testBoardCreationFromHeaderFromCSVPassed Successful 
+22:44:19.879 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestBoardCreationFromHeaderFromCSV
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

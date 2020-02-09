@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.roman.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-07T20:34:50" hostname="DESKTOP-TU4L92H" time="46.559">
+<testsuite name="com.roman.trello.tests.BoardDeletionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-07T20:45:36" hostname="DESKTOP-TU4L92H" time="48.712">
   <properties/>
-  <testcase name="testFirstBoardDeletion1" classname="com.roman.trello.tests.BoardDeletionTests" time="22.032"/>
-  <testcase name="testFirstBoardDeletion2" classname="com.roman.trello.tests.BoardDeletionTests" time="24.493"/>
-  <system-out><![CDATA[22:34:50.125 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion1with parameters[]
-22:35:12.173 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion1Passed Successful 
-22:35:12.181 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion1
-22:35:12.186 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion2with parameters[]
-22:35:36.701 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion2Passed Successful 
-22:35:36.709 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion2
+  <testcase name="testFirstBoardDeletion1" classname="com.roman.trello.tests.BoardDeletionTests" time="22.39"/>
+  <testcase name="testFirstBoardDeletion2" classname="com.roman.trello.tests.BoardDeletionTests" time="26.28"/>
+  <system-out><![CDATA[22:45:36.004 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion1with parameters[]
+22:45:58.412 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion1Passed Successful 
+22:45:58.414 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion1
+22:45:58.419 [Test worker] INFO  com.roman.trello.tests.TestBase - Start testtestFirstBoardDeletion2with parameters[]
+22:46:24.733 [Test worker] INFO  com.roman.trello.utils.Listener - testFirstBoardDeletion2Passed Successful 
+22:46:24.739 [Test worker] INFO  com.roman.trello.tests.TestBase - Stop testtestFirstBoardDeletion2
 ]]></system-out>
-  <system-err><![CDATA[]]></system-err>
+  <system-err><![CDATA[1581108364529	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+]]></system-err>
 </testsuite>
